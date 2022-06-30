@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main()
+/**Print the various sizes of data types in C*/
+int main(void)
 {
 	char chr;
 	int num;
