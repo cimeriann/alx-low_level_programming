@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description - Print the base 10 digits 
+ * Description - Print the base 10 digits
  * Return: 0
  */
 int main(void)

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description - Print hex digits 
+ * Description - Print hex digits
  * Return: 0
  */
 int main(void)

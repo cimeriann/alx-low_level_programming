@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description - Print the alphabets 
+ * Description - Print the alphabets
  * Return: 0
  */
 int main(void)
