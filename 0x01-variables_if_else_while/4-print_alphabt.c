@@ -2,14 +2,19 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description - Print the base 10 digits 
+ * Description - Print the alphabets 
  * Return: 0
  */
 int main(void)
 {
-	for (int i = 0; i < 10; i++)
+	char c = 'a';
+	while (c <= 'z')
 	{
-		printf("%i", i);
+		if (c != 'e' && c != 'q')
+		{	
+			putchar(c);
+			c++;
+		}
 	}
 	putchar("\n");
 	return (0);
