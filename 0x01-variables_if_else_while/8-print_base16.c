@@ -8,6 +8,7 @@
 int main(void)
 {
 	int i = 0;
+
 	while (i <= 9)
 	{
 		putchar(i);
@@ -19,6 +20,6 @@ int main(void)
 		putchar(c);
 		c++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
