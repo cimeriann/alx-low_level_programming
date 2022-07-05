@@ -1,13 +1,11 @@
 #include "main.h"
-
-/**
- * main - prints all english alphabets
- * Return: 0
- */
-
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	char c = 'a';
 
-	return (0);
+	while (c <= 'z')
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
 }
