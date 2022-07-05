@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
  * main - prints _putchar to standard output
- * Return - always 0
+ * Return: 0
  */
+
 int main(void)
 {
 	_putchar('_');
