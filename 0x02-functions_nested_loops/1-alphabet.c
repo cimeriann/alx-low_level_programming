@@ -1,7 +1,7 @@
 #include "main.h"
 
-/*
- * print_alphabet - print the alphabets of the englich language
+/**
+ * print_alphabet - print the alphabets of the english language
  * Return - always 0
  */
 
