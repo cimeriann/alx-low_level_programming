@@ -1,12 +1,18 @@
-#include <unistd.h>
+#include "main.h"
 /**
  * main - prints _putchar to standard output
  * Return - on success 1
  */
-char* file = "_putchar";
-
-int _putchar(file)
+int main(void)
 {
-	write(file);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
