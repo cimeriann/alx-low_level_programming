@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
- * print_sign - print the sign of a character
- * @n: holds value to be checked
- * Return - Always 0
+ * print_sign - Return sign for an int
+ * @c: The int to print
+ * Return: Always 0.
  */
 
 int print_sign(int n)

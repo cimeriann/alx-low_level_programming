@@ -1,8 +1,8 @@
 #include "main.h"
-
+`
 /**
  * _isalpha - checks for an alphabet
- * @c: holds value to be checked
+ * @c: The int to print
  * Return - Always 0
  */
 
