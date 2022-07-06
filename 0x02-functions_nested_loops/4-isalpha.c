@@ -3,7 +3,7 @@
 /**
  * _isalpha - checks for an alphabet
  * @c: holds value to be checked
- * Return - 1 if _isalpha, 0 if not
+ * Return - Always 0
  */
 
 int _isalpha(int c)

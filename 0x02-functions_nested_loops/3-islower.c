@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _islower - checks if an alphabet is in lowecase
+ * _islower - Short description, single line
  * @c: int
- * Return - 1 if _islower, 0 if not
+ * Return - Always 0
  */
 
 int _islower(int c)

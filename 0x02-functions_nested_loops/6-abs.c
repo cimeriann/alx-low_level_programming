@@ -3,7 +3,7 @@
 /**
  * _abs - print the absolute value of a number
  * @c: holds value to be checked
- * Return - 0 or 1
+ * Return - Always 0
  */
 
 int _abs(int c)
@@ -11,15 +11,16 @@ int _abs(int c)
 	int soln;
 
 	if (c < 0)
+	}
+		return (c * (-1));
+	}
+	else if (c == 0)
 	{
-		soln = c * -1;
-		_putchar(soln);
-		return (1);
+		return (0);
 	}
 	else
 	{
-		_putchar(c);
-		return (0);
+		return (c);
 	}
 	_putchar('\n');
 }
