@@ -3,7 +3,7 @@
 /**
  * _abs - print the absolute value of a number
  * @c: holds value to be checked
- * Return - Always 0
+ * Return: Always 0
  */
 
 int _abs(int c)
