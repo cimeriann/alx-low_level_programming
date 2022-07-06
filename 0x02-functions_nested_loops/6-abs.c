@@ -2,22 +2,23 @@
 
 /**
  * _abs - print the absolute value of a number
- * Return - int
+ * Return - 0 or 1
  */
 
-int _abs(int)
+int _abs(int c)
 {
 	int soln;
 
-	if (int < 0)
+	if (c < 0)
 	{
-		soln = int * -1;
+		soln = c * -1;
 		_putchar(soln);
 		return (1);
 	}
 	else
 	{
-		_putchar(int);
+		_putchar(c);
 		return (0);
 	}
+	_putchar('\n');
 }

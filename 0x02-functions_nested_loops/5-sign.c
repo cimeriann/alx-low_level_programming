@@ -2,7 +2,7 @@
 
 /**
  * print_sign - print the sign of a character
- * Return - int
+ * Return - 0 if negative, 1 if positive
  */
 
 int print_sign(int n)
@@ -11,13 +11,13 @@ int print_sign(int n)
 	{
 		return (1);
 		_putchar('+');
-	}
-	elif (n < 0)
+	} 
+	else if (n < 0)
 	{
 		return (-1);
 		_putchar('-');
 	}
-	elif (n == 0)
+	else if (n == 0)
 	{
 		return (0);
 		putchar('0');
