@@ -2,12 +2,15 @@
 
 /**
  * _islower checks if an alphabet is in lowecase
+ * c - any digit
  * Return - always int
  */
 
 int _islower(int c)
 {
-	if(c >= 65 && c <= 90)
+	c = 'a';
+
+	if(c >= 'z')
 	{
 		return (1);
 	}
