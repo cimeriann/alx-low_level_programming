@@ -1,50 +1,55 @@
 #include "main.h"
 
 /**
-  * print_times_table -prints tables
-  * Return: Always 0.
-  */
+  * print - local variable
+  * @var: variable
+ */
+void print(int var)
+{
+	if (var / 10)
+		print(var / 10);
+	_putchar('0' + (var % 10));
+}
 
+/**
+  * print_times_table - to print n times table btw 0 and 14
+  * @n: numbers to print out
+*/
 void print_times_table(int n)
 {
-	int a;
-	int b;
-	int c;
+	int x, y, mul;
 
-	for (a = 0; a <= 9; a++)
+	if (n < 0 || n > 15)
+		return;
+	for (x = 0; x <= n; x++)
 	{
-		for (b = 0; b <= 9; b++)
+		for (y = 0; y <= n; y++)
 		{
-			c = a * b;
-			if ((c / 10) == 0)
+			mul = x * y;
+			if (y == 0)
+				_putchar('0' + mul);
+			else if (mul < 10)
 			{
-				if (b == 0)
-				{
-					_putchar ('0');
-				}
-				if (b != 0)
-				{
-					_putchar (' ');
-					_putchar ((c % 10) + '0');
-				}
-				if (b < 9)
-				{
-					_putchar(',');
-					_putchar (' ');
-				}
+				_putchar(' ');
+				_putchar(' ');
+				_putchar('0' + mul);
+			}
+			else if (mul < 100)
+			{
+				_putchar(' ');
+				print(mul);
 			}
 			else
 			{
-				_putchar ((c / 10) + '0');
-				_putchar ((c % 10) + '0');
-				if (b < 9)
-				{
-					_putchar(',');
-					_putchar (' ');
-				}
+				print(mul);
+			}
+			if (y < n)
+			{
+				_putchar (',');
+				_putchar (' ');
 			}
 		}
-		_putchar ('\n');
+		_putchar('\n');
 	}
 }
 
