@@ -7,31 +7,17 @@
 
 int main(void)
 {
-	int i = 0;
-	int m3 = 3;
-	int m5 = 5;
-	int sum = 0;
-	int lim = 1024;
+	int x, total;
 
-	while (i == 0)
+	for (x = 3; x < 1024; x++)
 	{
-		if (m3 < lim)
+		if (x % 3 == 0 || x % 5 == 0)
 		{
-			sum += m3;
-			m3 += 3;
+			total += x;
 		}
-		if (m5 < lim && (m5 % 3) != 0)
-		{
-			sum += m5;																m5 += 5;
-		}
-		else if (m5 % 3 == 0)
-		{																		m5 += 5;															}
-		else if (m3 >= lim && m5 >= lim)
-		{																		i = 1;
-		}
-		i	}
+	}
 
-	printf("%d\n", sum);
+	printf("%d\n", total);
 
 	return (0);
 

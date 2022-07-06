@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _abs - print the absolute value of a number
@@ -21,4 +20,5 @@ int _abs(int c)
 	{
 		return (c);
 	}
+	return (0);
 }
