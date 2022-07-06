@@ -1,20 +1,19 @@
 #include "main.h"
 
 /**
- * _isalpha - checks for an alphabet
- * @c: The int to print
- * Return - Always 0
- */
+  * _isalpha - checks if c is an alphabetic character
+  * @c: character to be checked
+  * Return: 1 if true 0 if otherwise
+  */
 
 int _isalpha(int c)
 {
-	if ((c >= 65 && c <= 90) || (c >= 95 && c <= 120))
-	{
+	int lower = (c >= 'a' && c <= 'z');
+	int upper = (c >= 'A' && c <= 'Z');
+
+	if (lower || upper)
 		return (1);
-	}
 	else
-	{
 		return (0);
-	}
-	return (0);
 }
+
