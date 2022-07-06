@@ -2,14 +2,14 @@
 
 /**
  * _islower - checks if an alphabet is in lowecase
- * c - int
+ * @c: int
  * Return - 1 if _islower, 0 if not
  */
 
 int _islower(int c)
 {
 
-	if (c >='a' && c <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}

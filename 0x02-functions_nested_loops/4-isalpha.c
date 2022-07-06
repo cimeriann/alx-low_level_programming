@@ -2,6 +2,7 @@
 
 /**
  * _isalpha - checks for an alphabet
+ * @c: holds value to be checked
  * Return - 1 if _isalpha, 0 if not
  */
 

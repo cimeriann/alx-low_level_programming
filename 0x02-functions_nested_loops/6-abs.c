@@ -2,6 +2,7 @@
 
 /**
  * _abs - print the absolute value of a number
+ * @c: holds value to be checked
  * Return - 0 or 1
  */
 

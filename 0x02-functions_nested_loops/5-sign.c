@@ -2,6 +2,7 @@
 
 /**
  * print_sign - print the sign of a character
+ * @n: holds value to be checked
  * Return - 0 if negative, 1 if positive
  */
 
