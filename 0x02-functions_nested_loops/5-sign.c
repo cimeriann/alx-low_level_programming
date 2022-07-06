@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_sign - Return sign for an int
  * @c: The int to print
@@ -23,4 +24,5 @@ int print_sign(int n)
 		_putchar('0');
 	}
 	_putchar('\n');
+	return (0);
 }

@@ -1,5 +1,5 @@
 #include "main.h"
-`
+
 /**
  * _isalpha - checks for an alphabet
  * @c: The int to print
