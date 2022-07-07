@@ -2,6 +2,7 @@
 
 /**
  * main - checks for a number
+ * @c: digit to be checked
  * Return: 0
  */
 int _isdigit(int c)
