@@ -14,6 +14,4 @@ int mul(int a, int b)
 	times = a * b;
 
 	return (times);
-
-
 }
