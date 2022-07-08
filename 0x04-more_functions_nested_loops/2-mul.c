@@ -1,17 +1,13 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * mul - checks for a number
  * @a: digit to be checked
- * @b: digit to cbe checked
- * Return: 0
+ * @b: digit to be checked
+ * Return: the multiplicationof the two int s
  */
+
 int mul(int a, int b)
 {
-	int times;
-	
-	times = a * b;
-
-	return (times);
+	return (a * b);
 }
