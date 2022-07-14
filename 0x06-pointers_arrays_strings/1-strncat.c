@@ -1,25 +1,25 @@
 #include "main.h"
 #include "string.h"
+
 /**
- * _strcat - concatenate two strings together
+ * _strncat - concatenate two strings together
  * @dest: destination
  * @src: source
  * @n: num
- * Return: 0
+ * Return: dest
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
-	int length = 0;
+	int length = strlen(dest);
 
 	int i = 0;
 
-	while (dest[length] != '\0')
+	while (i < n && *src)
 	{
-		length++;
-	}
-	while (i < n && src[i] != '\0')
-	{
-		dest[length + i] = src[i];
+		dest[length + i] = *src;
+		src++;
+		i++:
 	}
 	dest[length + i] = '\0';
 
