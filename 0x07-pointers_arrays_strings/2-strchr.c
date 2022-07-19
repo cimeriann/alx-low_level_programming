@@ -3,7 +3,7 @@
 
 /**
  * __strchr - locates a char in a string
- *@s: string
+ * @s: string
  * @c: the char
  * Return: a pointer to the first occurence or null
  */
