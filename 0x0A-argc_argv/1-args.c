@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <main.h>
 
 /**
  * main - function that prints its name
@@ -15,8 +15,9 @@ int main(int argc, char *argv[])
 
 	if (argc > 1)
 	{
-		count -= argc;
-		printf("%d\n", count);
+		count = argc - 1;
+		_putchar(count);
 	}
+	_putchar('\n');
 	return (0);
 }
