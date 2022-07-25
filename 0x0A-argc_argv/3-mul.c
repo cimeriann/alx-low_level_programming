@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
 	if (argc == 3)
 	{
-		mul = _atoi(arg[1]) * _atoi(arg[2]);
+		mul = _atoi(argv[1]) * _atoi(argv[2]);
 	}
 	else if (argc < 3)
 	{
