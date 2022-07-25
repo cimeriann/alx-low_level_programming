@@ -1,2 +1,2 @@
-int main(int argc, char* argv[0]);
+int main(int argc, char* argv[]);
 int _putchar(char c);
