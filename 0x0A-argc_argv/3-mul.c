@@ -22,5 +22,6 @@ int main(int argc, char *argv[])
 	y = atoi(argv[2]);
 
 	printf("%d\n", x * y);
+	
 	return (0);
 }
