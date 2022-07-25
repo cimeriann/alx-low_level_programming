@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - function that prints alli args passed to it
