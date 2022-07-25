@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - function that prints its name
@@ -12,7 +13,7 @@ int main(int argc, char *argv[])
 	(void)argv;
 	int count;
 
-	if (argv > 1)
+	if (argc > 1)
 	{
 		count -= argc;
 		printf("%d\n", count);
