@@ -11,13 +11,7 @@
 int main(int argc, char *argv[])
 {
 	(void)argv;
-	int count;
 
-	if (argc > 1)
-	{
-		count = argc - 1;
-		_putchar(count);
-	}
-	_putchar('\n');
+	printf("%d\n", argc - 1);
 	return (0);
 }
