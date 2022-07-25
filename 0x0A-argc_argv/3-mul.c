@@ -9,10 +9,15 @@
 
 int main(int argc, char *argv[])
 {
-	int index;
+	int mul;
 
-	for (index = 0; index < argc; index++)
-		printf("%s\n", argv[index]);
-
+	if (argc == 3)
+	{
+		mul = arg[1] * arg[2];
+	}
+	else if (argc < 3)
+	{
+		printf("Error\n");
+	}
 	return (0);
 }
