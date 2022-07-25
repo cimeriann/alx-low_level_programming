@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - function that prints alli args passed to it
@@ -13,7 +14,7 @@ int main(int argc, char *argv[])
 
 	if (argc == 3)
 	{
-		mul = arg[1] * arg[2];
+		mul = _atoi(arg[1]) * _atoi(arg[2]);
 	}
 	else if (argc < 3)
 	{
